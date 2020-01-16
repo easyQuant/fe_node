@@ -1,14 +1,13 @@
 # fe_node
 前端面试准备记录
 
-### 基础 html / javascript / css
-basic
-
-### 简单算法 / 数据结构
-algorithm
-
-### 框架相关
-├── basic
+```
+.
+├── README.md
+├── algorithm 常用算法 / 数据结构
+│   ├── sort.js
+│   └── unique.js
+├── basic 基础 html / javascript / css
 │   ├── clone.js 对象深浅拷贝
 │   ├── closures.js 闭包概念以及应用
 │   ├── extends 继承的方式
@@ -22,15 +21,17 @@ algorithm
 │   ├── scope.js 词法作用域
 │   ├── this.js 上下文概念
 │   └── type.js 数据类型
-
-### 设计模式
-patterns
-
-### 工程化工具 webpack / gulp
-util
-
-### web优化 / http相关
-web
-
-### nodejs / electron / git / linux
-other
+├── frame 前端框架相关(vue, angular)
+│   ├── core.js
+│   ├── diff.js
+│   ├── life_cycle.js
+│   └── method.js
+├── other nodejs / electron / git / linux
+├── patterns 设计模式
+│   ├── decorator.js
+│   ├── factory.js
+│   ├── module.js
+│   └── singleton.js
+├── util 工程化工具 webpack / gulp
+└── web web优化 / http相关
+```
