@@ -5,7 +5,7 @@
 .
 ├── README.md
 ├── algorithm 常用算法 / 数据结构
-│   ├── sort.js
+│   ├── sort.js 冒泡 选择 插入 快速  
 │   └── unique.js
 ├── basic 基础 html / javascript / css
 │   ├── clone.js 对象深浅拷贝

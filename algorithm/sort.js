@@ -1,5 +1,5 @@
 // 几种排序算法
-
+// TODO: 参考资料 https://segmentfault.com/a/1190000020072884
 // 冒泡排序
 // 每次都把较大的数放到下一个下标 这样每轮循环之后 最后一个肯定是最大的
 function bubbleSort(list) {
@@ -100,3 +100,10 @@ function insertSort(list) {
 }
 
 console.info(insertSort([3, 5, 2, 6, -1, 4, 7, 17, 8]))
+
+// 快速排序
+function quickSort(list) {
+
+}
+
+console.info(quickSort([3, 4, 1, 2, 6, 7]))
