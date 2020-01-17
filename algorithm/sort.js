@@ -101,9 +101,29 @@ function insertSort(list) {
 
 console.info(insertSort([3, 5, 2, 6, -1, 4, 7, 17, 8]))
 
-// 快速排序
 function quickSort(list) {
+    var left = []
+    var right = []
 
+    if (list.length <= 1) {
+        return list
+    }
+
+    tempIndex = Math.floor(list.length / 2)
+
+    // 获取其中的数据并取出
+    temp = list.splice(tempIndex, 1)[0]
+
+    for (var i = 0;i < list.length;i++) {
+
+        if (list[i] < temp) {
+            left.push(list[i])
+        } else {
+            right.push(list[i])
+        }
+    }
+    console.info(`left ${left} right ${right}`)
+    return quickSort(left).concat([temp], quickSort(right))
 }
 
-console.info(quickSort([3, 4, 1, 2, 6, 7]))
+console.info(quickSort([3, 4, 1, 2, 2, 2, 6, 7]))
