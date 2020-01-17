@@ -6,7 +6,7 @@
 ├── README.md
 ├── algorithm 常用算法 / 数据结构
 │   ├── sort.js 冒泡 选择 插入 快速  
-│   └── unique.js
+│   └── unique.js 哈希 排序
 ├── basic 基础 html / javascript / css
 │   ├── clone.js 对象深浅拷贝
 │   ├── closures.js 闭包概念以及应用
