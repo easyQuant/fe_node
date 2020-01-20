@@ -22,10 +22,16 @@
 │   ├── this.js 上下文概念
 │   └── type.js 数据类型
 ├── frame 前端框架相关(vue, angular)
-│   ├── core.js
-│   ├── diff.js
-│   ├── life_cycle.js
-│   └── method.js
+│   ├── angular
+│   └── vue
+│       ├── diff.js
+│       ├── lifecycle.js vue生命周期
+│       ├── lifecycle.png vue生命周期 (思路)
+│       ├── reactivity.js vue响应式绑定原理
+│       ├── reactivity.png vue响应式绑定原理 (思路)
+│       ├── state.js vue 属性的区别
+│       └── method.js
+│       └── vuex.js
 ├── other nodejs / electron / git / linux
 ├── patterns 设计模式
 │   ├── decorator.js
