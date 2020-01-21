@@ -24,14 +24,15 @@
 ├── frame 前端框架相关(vue, angular)
 │   ├── angular
 │   └── vue
-│       ├── diff.js
+│       ├── diff.js 手撸一个 vue的 虚拟dom diff算法
+│       ├── diff.png vue的 虚拟dom diff算法 (思路图)
 │       ├── lifecycle.js vue生命周期
-│       ├── lifecycle.png vue生命周期 (思路)
-│       ├── reactivity.js vue响应式绑定原理
-│       ├── reactivity.png vue响应式绑定原理 (思路)
+│       ├── lifecycle.png vue生命周期 (思路图)
+│       ├── reactivity.js 手撸几个vue的常用指令 v-click/v-model/vi-bind vue响应式绑定原理
+│       ├── reactivity.png vue响应式绑定原理 (思路图)
 │       ├── state.js vue 属性的区别
-│       └── method.js
-│       └── vuex.js
+│       └── vuex.js 手撸一个 vuex
+│       └── vuex.png vuex 原理 (思路图)
 ├── other nodejs / electron / git / linux
 ├── patterns 设计模式
 │   ├── decorator.js
